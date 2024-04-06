@@ -1,0 +1,11 @@
+TEOREMA DE TAYLOR
+
+El polinomio de Taylor viene a ser una aproximacion polinomica de una funcion alrededor de un punto dado. La idea es representar una funcion
+complicada por medio de un polinomio mas simple que se aproxime a la funcion original cerca de un punto especifico. Este polinomio es util
+para aproximaciones numericas y para el analisis de funciones no lineales.
+
+P_n(x) = f(a) + \sum_{k=1}^{n} \frac{f^{(k)}(a)}{k!} (x-a)^k
+
+Este es el polinomio de Taylor de una función f(x)f(x) alrededor de un punto aa hasta el término nn, donde f(a)f(a) es el valor de f(x)f(x) en aa,
+f(k)(a)f(k)(a) representa la kk-ésima derivada de f(x)f(x) evaluada en aa, k!k! es el factorial de kk, y (x−a)k(x−a)k son los términos de la
+expansión centrada en aa.
