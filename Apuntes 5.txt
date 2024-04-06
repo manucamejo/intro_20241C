@@ -1,0 +1,22 @@
+2024-04-05
+
+Git
+
+    - Ramas
+        - Permiten evitar conflicto entre los cambios realizados por multiples personas
+            - Trabaja en una "rama" separada al tronco principal (main) y a cierto punto
+            la rama se vuelve a unir al tronco
+        - git checkout -b 'Nombre' crea una rama 
+            - git checkout sin -b permite moverse entre ramas
+        - Si la rama no existe en el repositorio, hace git push origin nombre_de_rama
+            - Esto crea la rama en el repositorio
+        - EN GITHUB para mandar los cambios de tu rama a main, haces una pull request
+        - Si los cambios que hiciste tienen conflicto con main al momento de mergear, 
+        github intenta solucionarlo, pero generalmente hay que solucionarlo manualmente
+        - git merge permite traer los cambios de main a la rama en la que estés trabajando
+            - Para poder ver conflictos entre ramas antes de hacer una pull request
+    
+    - Github
+        - .gitignore permite que ciertos archivos no aparezcan como modificados
+            - * es una wildcard, permite ignorar todo lo que cumpla ciertos requisitos
+                - por ejemplo *.dot ignora todos los archivos .dot
