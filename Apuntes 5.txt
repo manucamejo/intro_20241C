@@ -1,3 +1,4 @@
+2024-04-05
 
 Git
 
@@ -14,3 +15,8 @@ Git
         github intenta solucionarlo, pero generalmente hay que solucionarlo manualmente
         - git merge permite traer los cambios de main a la rama en la que estés trabajando
             - Para poder ver conflictos entre ramas antes de hacer una pull request
+    
+    - Github
+        - .gitignore permite que ciertos archivos no aparezcan como modificados
+            - * es una wildcard, permite ignorar todo lo que cumpla ciertos requisitos
+                - por ejemplo *.dot ignora todos los archivos .dot
